@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/> <!--中文編碼 -->
+        <meta name="decription" content="YUN"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/> <!--視口-->
+        <link rel="stylesheet" href="style.css">
+        <title>看板</title> <!--瀏覽器分頁名稱 -->
+    </head>
+    <body>
+        <div class="wrap">
+            <div class="column">
+                <div class="title todo">待處理</div>
+                <div class="input-wrap">
+                    <input type="text" placeholder="＋ 新增事項" />
+                    <button class="add_button">add</button>
+                </div>
+                <ul class="list"></ul>
+            </div>
+
+            <div class="column">
+                <div class="title handle">進行中</div>
+                <ul class="list"></ul>
+            </div>
+
+            <div class="column">
+                <div class="title complete">已完成</div>
+                <ul class="list"></ul>
+            </div>
+        </div>
+    <script src="script.js"></script>
+    </body>
+</html>
